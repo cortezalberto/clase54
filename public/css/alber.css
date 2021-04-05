@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+   margin-top: 40px;
+}
+
+
+.main-header {
+    flex: 1 1 auto;
+    background-color: #EAC926;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+}
+
+.main-header .contenedor-top{
+    display:flex;
+    justify-content: space-around;
+     /* Alinea los hijos al centro */
+     align-items: center;
+}
+
+
+.main-header .contenedor-bottom{
+   
+    display:flex;
+   flex-flow: row;
+   padding-bottom: 30px;
+
+ 
+} 
+
+
+ .left-navbar{
+    flex: 1 1 auto; 
+
+  padding-left: 100px;
+
+ 
+
+}
+
+.contenedor-bottom .right-navbar{
+    flex: 1 1 auto; 
+  
+    padding-left: 100px;
+   
+}
+
+
+.contenedor-top .logo{
+
+   flex: 1 1 auto;
+}
+.contenedor-top .search-container{
+    flex: 2 1 auto; 
+}
+
+.contenedor-top .frase{
+    flex: 1 1 auto;
+
+}
+
+.search-container {
+    width: 400px;
+   
+
+}
+
+.search-container input[type=text] {
+    width: 360px;
+    height: 35px;
+    margin-right: 0px;
+    
+}
+
+.search-container button {
+  
+    padding: 6px 10px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+  
+.search-container button:hover {
+    background: #cccccc;
+}
+
+
+
+
+body{
+    background-color: gainsboro;
+}
+
+a, a:hover, a:link, a:visited {
+    text-decoration: none;
+    color:black;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+
+.left-navbar a {
+    transition: color .3s ease-out;
+   
+}
+
+.left-navbar a:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.right-navbar a {
+    transition: color .3s ease-out;
+   
+}
+
+.right-navbar a:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+.product-order {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-detail {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: block;
+    background-color:white;
+    width: 320px;
+    height: auto;
+    margin: 0 0 15px 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1), 0 -1px 2px 0 rgba(0,0,0,.1);
+}
+
+
+
+.box-image {
+    padding: 10px 0;
+}
+
+.box-price-nameproduct {
+    padding: 20px;
+ 
+    position: relative;
+}
+
+.box-price {
+
+ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   justify-content:flex-start;
+
+}
+.mr-2{
+    margin-right: 20px;
+}
+.box-name {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    color:white;
+    transition: color .3s ease-out;
+}
+
+
+
+.product:hover {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
+
+
+.product:hover .box-name {
+  display:block;
+    color:black;
+}
+
+.container-register { 
+    padding: 0 2rem; 
+    margin-top: 50px;
+
+}
+
+.columns{
+  
+    display:flex;
+    justify-content:space-around;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-top: .5rem;
+   
+}
+
+.mitad{   
+    display: flex;    
+    flex-wrap: wrap;    
+       } 
+
+
+input,
+textarea,
+select { width: 100%; }
+
+input,
+textarea,
+select,
+button {
+    border: 1px solid #ccc;
+    padding: .5rem;
+}
+
+
+.feedback {
+    margin-top: .25rem;
+    font-size: .9rem;
+}
+
+.field label {
+    display: block;
+    margin-bottom: .25rem;
+}
